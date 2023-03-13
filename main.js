@@ -8,6 +8,11 @@ form.addEventListener('submit', function(event) {
   const birthday = birthdayInput.value;
   const gender = genderInput.value;
 
+  const date = new Date(birthday);
+  const dayOfWeek = date.getDay();
+  const month = date.getMonth();
   
+
+
 
 });
