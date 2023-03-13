@@ -49,6 +49,6 @@ form.addEventListener('submit', function(event) {
   }
   const akranNameElement = document.createElement('p');
   akranNameElement.textContent = `Your Akran name is ${akranName}.`;
-  console.log(akranNameElement);
+  console.log(akranName);
   form.appendChild(akranNameElement);
 });
