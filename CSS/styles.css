@@ -1,4 +1,6 @@
 .container {
     margin-top: 20px;
     padding: 10px;
+    border-radius: 2%;
+    border-width: 3px;
 }
